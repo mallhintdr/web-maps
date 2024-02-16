@@ -1,0 +1,1 @@
+var data=["BWP Ghalwan","Khamisa Pakhi War"];

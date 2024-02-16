@@ -1,0 +1,1 @@
+var data =["14 DNB","18 DNB","34 DNB"]
