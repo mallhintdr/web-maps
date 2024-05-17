@@ -94,11 +94,11 @@ select:hover {
 /* Ensure your selector is specific enough */
 #map .leaflet-control-zoom-in, 
 #map .leaflet-control-zoom-out {
-    width: 45px;
-    height: 45px;
+    width: 36px;
+    height: 36px;
     background-color: #d4d4a6;
     border: 2px solid #000;
-    line-height: 45px;
+    line-height: 36px;
 }
 /* Target the pseudo-elements specifically */
 
@@ -110,8 +110,8 @@ select:hover {
 /* Custom CSS to increase the size of the Locate button */
 /* Increase the size of the Locate Control button */
 #map .leaflet-control-locate a {
-    width: 45px; /* Increase the width */
-    height: 45px; /* Increase the height */
+    width: 36px; /* Increase the width */
+    height: 36px; /* Increase the height */
     background-size: 45px 45px; /* Adjust if the icon is a background image */
     }
 
@@ -163,22 +163,5 @@ h3 {
     background-size: cover;
     z-index: 1000;
 }
-/* Customize the scale bar container */
-.leaflet-control-scale {
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-    color: #ed2e2e; /* Color of the scale text */
-    border: 1px solid #eb9a9a; /* Border around the scale bar */
-    border-radius: 5px; /* Rounded corners */
-    padding: 5px; /* Some padding around the text */
-}
-
-/* Customize the scale bar itself */
-.leaflet-control-scale-line {
-    background: rgb(237, 225, 181); /* Greenish background for the scale line */
-    border-top: 1px solid #448; /* Dark blue border on top */
-    border-bottom: 1px solid #448; /* Dark blue border on bottom */
-    height: 10px; /* Height of the scale line */
-}
-
 
 
