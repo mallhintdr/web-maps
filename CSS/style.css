@@ -125,16 +125,16 @@ select:hover {
     border: none; 
     box-shadow: none;
     color: #ffeb50;
-    font-size: 22px;
+    font-size: var(--label-font-size, 14px);
    }
 .mustateel {
     background-color: transparent; 
     border: none; 
     box-shadow: none;
     color: #3eff0d;
-    font-size: 25px;
-    font-weight: bold; /* Make it bold */
-   } 
+    font-size: var(--label-font-size, 16px); /* Default size */
+    font-weight: bold;
+} 
 .leaflet-popup-content-wrapper {
     background-color: #000000;
     color: #ffffff;
