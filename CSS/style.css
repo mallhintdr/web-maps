@@ -117,24 +117,34 @@ select:hover {
 
 /* Adjust line height for vertical alignment, if necessary */
 #map .leaflet-control-locate a {
-    line-height: 65px;
+    line-height: 60px;
 }
 
 .labelstyle {
     background-color: transparent; 
     border: none; 
     box-shadow: none;
-    color: #ffeb50;
+    color: #ffeb50; /* yellow color */
     font-size: var(--label-font-size, 14px);
-   }
+    text-shadow: 1px 1px 2px #000000,  /* Horizontal shadow, Vertical shadow, Blur, and Color */
+                 -1px -1px 2px #000000,
+                 1px -1px 2px #000000,
+                 -1px 1px 2px #000000; /* Multiple shadows for better outline effect */
+}
+
 .mustateel {
     background-color: transparent; 
     border: none; 
     box-shadow: none;
-    color: #3eff0d;
+    color: #3eff0d; /* green color */
     font-size: var(--label-font-size, 16px); /* Default size */
     font-weight: bold;
-} 
+    text-shadow: 1px 1px 2px #000000,  /* Horizontal shadow, Vertical shadow, Blur, and Color */
+                 -1px -1px 2px #0b0b0b,
+                 1px -1px 2px #050505,
+                 -1px 1px 2px #070707; /* Multiple shadows for better outline effect */
+}
+
 .leaflet-popup-content-wrapper {
     background-color: #000000;
     color: #ffffff;
@@ -165,3 +175,39 @@ h3 {
 }
 
 
+.coord-tooltip {
+    background-color: black;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;  /* Ensures the background fits the content */
+    overflow: hidden;     /* Prevents content from spilling out */
+    text-overflow: ellipsis; /* Adds an ellipsis if the text overflows */
+}
+
+leaflet-tooltip.leaflet-clickable {
+    pointer-events: auto !important;  /* Allows mouse events like clicks and text selection */
+    user-select: text !important;     /* Allows text selection in the tooltip */
+    -webkit-user-select: text;        /* Specific for webkit browsers like Chrome and Safari */
+    -moz-user-select: text;           /* Specific for Firefox */
+    -ms-user-select: text;            /* Specific for Internet Explorer */
+}
+
+/* Additional styles for better appearance and legibility */
+
+
+.radius-area-label {
+    background-color: black;
+    color: white;
+    padding: 4px 8px;  /* Adequate padding for visual padding */
+    border-radius: 4px;
+    white-space: normal;  /* Allow text to wrap if needed */
+    min-width: 100px;  /* Minimum width to handle smaller text entries */
+    max-width: 200px;  /* Maximum width to prevent overly wide tooltips */
+    text-align: left;  /* Align text to the left */
+    line-height: 1.4;  /* Adjust line spacing for readability */
+    font-size: 12px;  /* Ensure font size is not too large */
+    overflow-wrap: break-word;  /* Ensure long words do not overflow */
+    display: inline-block;  /* Force the div to fit the content's width */
+}
