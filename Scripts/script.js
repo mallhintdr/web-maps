@@ -1,1 +1,368 @@
-function _0xfdc2(){var _0xea3dea=['icon','innerHTML','addEventListener','8px','mt2','change','setView','Khasra','then','</div>','style','filter','openTooltip','mt0','getLatLng','forEach','createElement','https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}','bindTooltip','Control','label','Killa','appendChild','CREATED','toFixed','\x20Kanal<br>','layers','circle','lat','map','Circle','124653WrQCph','142268qockBJ','area-label','className','geodesicArea','equals','chak-dropdown','json','removeLayer','length','topleft','getElementById','Select\x20Muraba','bottomright','addLayer','sort','distanceTo','mt3','260AYHEZg','\x20Marla<br>','getZoom','getRadius','bottomleft','tileLayer','layer','split','properties','features','3513PmNPPD','Error\x20loading\x20GeoJSON:\x20','Event','eachLayer','error','\x20ft</div>','<div\x20style=\x22min-width:\x2050px;\x20background-color:\x20black;\x20color:\x20white;\x20padding:\x202px;\x20border-radius:\x203px;\x20white-space:\x20nowrap;\x20text-align:\x20left;\x22>Radius:\x20','value','Rectangle','textContent','<option>Select\x20Muraba</option>','polygon','Murabba_No-dropdown','1450800RKvsgm','#000000','fitBounds','Area:<br>','Polygon','push','options','rectangle','lng','Show\x20My\x20Location','getBounds','16ItMIJv','4965917VKvmhl','Polyline','<div\x20style=\x22min-width:\x2050px;\x20background-color:\x20black;\x20color:\x20white;\x20padding:\x202px;\x20border-radius:\x203px;\x20white-space:\x20nowrap;\x20text-align:\x20center;\x22>','991405SMoOYj','radius-area-label','geoJSON','includes','addTo','Draw','803560nRKvRE','16px','mt1','<div\x20style=\x22min-width:\x2050px;\x20background-color:\x20black;\x20color:\x20white;\x20padding:\x202px;\x20border-radius:\x203px;\x20white-space:\x20nowrap;\x20text-align:\x20left;\x22>','floor','JSON\x20Khasra/','.geojson','draw:deleted','polyline','152AfImAx','GeometryUtil','Network\x20response\x20was\x20not\x20ok','\x20Sq.\x20Feet','getCenter','12px','zoomend','EDITED','target','#ede88f','9KuNPTy','JSON\x20Murabba/','control','Murabba_No','divIcon','marker','setProperty','FeatureGroup','Select\x20Chak'];_0xfdc2=function(){return _0xea3dea;};return _0xfdc2();}var _0xd731c9=_0x55de;(function(_0x97d825,_0x3bee17){var _0x4c06f3=_0x55de,_0x60f080=_0x97d825();while(!![]){try{var _0x4618c4=-parseInt(_0x4c06f3(0x243))/0x1*(-parseInt(_0x4c06f3(0x239))/0x2)+parseInt(_0x4c06f3(0x227))/0x3*(-parseInt(_0x4c06f3(0x1e2))/0x4)+parseInt(_0x4c06f3(0x1e6))/0x5+-parseInt(_0x4c06f3(0x250))/0x6+parseInt(_0x4c06f3(0x228))/0x7*(-parseInt(_0x4c06f3(0x1f5))/0x8)+parseInt(_0x4c06f3(0x1ff))/0x9*(-parseInt(_0x4c06f3(0x1ec))/0xa)+parseInt(_0x4c06f3(0x1e3))/0xb;if(_0x4618c4===_0x3bee17)break;else _0x60f080['push'](_0x60f080['shift']());}catch(_0x3d141e){_0x60f080['push'](_0x60f080['shift']());}}}(_0xfdc2,0x389de));var map=L['map'](_0xd731c9(0x225))[_0xd731c9(0x20e)]([0x1f,0x44],0x5),googleHybrid=L[_0xd731c9(0x23e)]('https://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}',{'maxZoom':0x14,'subdomains':[_0xd731c9(0x215),_0xd731c9(0x1ee),_0xd731c9(0x20c),'mt3']})[_0xd731c9(0x1ea)](map),googleSat=L[_0xd731c9(0x23e)](_0xd731c9(0x219),{'maxZoom':0x15,'subdomains':['mt0',_0xd731c9(0x1ee),_0xd731c9(0x20c),_0xd731c9(0x238)]})[_0xd731c9(0x1ea)](map),baseLayers={'Google\x20Hybrid':googleHybrid,'Google\x20Satellite':googleSat};L[_0xd731c9(0x201)][_0xd731c9(0x222)](baseLayers,null,{'collapsed':![],'position':_0xd731c9(0x234)})['addTo'](map),L['control']['locate']({'position':_0xd731c9(0x231),'strings':{'title':_0xd731c9(0x1e0)},'locateOptions':{'enableHighAccuracy':!![]}})[_0xd731c9(0x1ea)](map);function customSort(_0x503a9d){var _0xae24e6=_0xd731c9;return _0x503a9d[_0xae24e6(0x236)]((_0x235b49,_0x3a7fde)=>{var _0x5ee864=_0xae24e6;let [_0x11a4ee,_0x232d4d]=_0x235b49[_0x5ee864(0x240)]('\x20'),[_0x58d746,_0x1b9cdb]=_0x3a7fde[_0x5ee864(0x240)]('\x20');_0x11a4ee=parseInt(_0x11a4ee,0xa),_0x58d746=parseInt(_0x58d746,0xa);if(_0x11a4ee!==_0x58d746)return _0x11a4ee-_0x58d746;return _0x232d4d['localeCompare'](_0x1b9cdb);});}var currentLayer=null,Murabba_Layer=null;let chakNames=customSort(data);chakNames[_0xd731c9(0x217)](function(_0x9de10b){var _0x167cef=_0xd731c9,_0x4a7f89=document[_0x167cef(0x218)]('option');_0x4a7f89['value']=_0x4a7f89['textContent']=_0x9de10b,document[_0x167cef(0x232)](_0x167cef(0x22d))[_0x167cef(0x21e)](_0x4a7f89);});function updateLabelSize(){var _0x41e938=_0xd731c9;const _0x5bb7a8=map[_0x41e938(0x23b)]();let _0xe3b002;if(_0x5bb7a8<0xa)_0xe3b002=_0x41e938(0x20b);else _0x5bb7a8>=0xa&&_0x5bb7a8<0xf?_0xe3b002=_0x41e938(0x1fa):_0xe3b002=_0x41e938(0x1ed);document['documentElement'][_0x41e938(0x212)][_0x41e938(0x205)]('--label-font-size',_0xe3b002);}document[_0xd731c9(0x232)](_0xd731c9(0x22d))[_0xd731c9(0x20a)]('change',function(_0x498187){var _0xf45763=_0xd731c9,_0x5aa5f9=_0x498187[_0xf45763(0x1fd)][_0xf45763(0x24a)];currentLayer&&(map[_0xf45763(0x22f)](currentLayer),map[_0xf45763(0x22f)](Murabba_Layer)),_0x5aa5f9!==_0xf45763(0x207)&&loadGeoJson(_0xf45763(0x200)+_0x5aa5f9+'.geojson',function(_0x33bbd2){var _0x2b2439=_0xf45763;currentLayer=L[_0x2b2439(0x1e8)](_0x33bbd2,{'style':function(){var _0x38dc62=_0x2b2439;return{'fillColor':_0x38dc62(0x251),'fillOpacity':0x0,'color':'#ff0c04','weight':0x3};},'onEachFeature':function(_0x596212,_0x342e37){var _0x3be4c7=_0x2b2439;_0x596212[_0x3be4c7(0x241)]&&_0x596212['properties'][_0x3be4c7(0x202)]&&_0x342e37[_0x3be4c7(0x21a)](_0x596212[_0x3be4c7(0x241)]['Murabba_No'],{'permanent':!![],'direction':'center','className':'mustateel'})['openTooltip']();}})[_0x2b2439(0x1ea)](map);let _0x5bb10f=currentLayer[_0x2b2439(0x1e1)]();map[_0x2b2439(0x20e)](_0x5bb10f[_0x2b2439(0x1f9)]()),map[_0x2b2439(0x252)](_0x5bb10f);var _0x578f23=document[_0x2b2439(0x232)](_0x2b2439(0x24f));_0x578f23[_0x2b2439(0x209)]=_0x2b2439(0x24d);var _0x2a9696=_0x33bbd2[_0x2b2439(0x242)][_0x2b2439(0x225)](function(_0x184c6b){var _0x75c61f=_0x2b2439;return _0x184c6b[_0x75c61f(0x241)][_0x75c61f(0x202)];});function _0x529f72(_0x248cb7,_0x1b5e4){var _0x46d8be=_0x2b2439;let [_0x3d007d,_0x125f0d=0x1]=_0x248cb7[_0x46d8be(0x1e9)]('/')?_0x248cb7[_0x46d8be(0x240)]('/')[_0x46d8be(0x225)](Number):[Number(_0x248cb7),0x1],[_0x334973,_0x3e8af6=0x1]=_0x1b5e4['includes']('/')?_0x1b5e4[_0x46d8be(0x240)]('/')[_0x46d8be(0x225)](Number):[Number(_0x1b5e4),0x1];if(_0x3d007d===_0x334973)return _0x125f0d-_0x3e8af6;return _0x3d007d-_0x334973;}_0x2a9696[_0x2b2439(0x236)](_0x529f72),_0x2a9696[_0x2b2439(0x217)](function(_0x15615f){var _0x312a51=_0x2b2439,_0x203956=document[_0x312a51(0x218)]('option');_0x203956['value']=_0x203956[_0x312a51(0x24c)]=_0x15615f,_0x578f23[_0x312a51(0x21e)](_0x203956);});});}),document[_0xd731c9(0x232)](_0xd731c9(0x24f))[_0xd731c9(0x20a)](_0xd731c9(0x20d),function(_0x57e528){var _0x28a4e8=_0xd731c9,_0x36605f=_0x57e528['target'][_0x28a4e8(0x24a)],_0x7d4df6=document[_0x28a4e8(0x232)]('chak-dropdown')['value'];Murabba_Layer&&map[_0x28a4e8(0x22f)](Murabba_Layer),_0x36605f!==_0x28a4e8(0x233)&&loadGeoJson(_0x28a4e8(0x1f1)+_0x7d4df6+'\x20'+_0x28a4e8(0x20f)+_0x28a4e8(0x1f2),function(_0x20ecb2){var _0x591943=_0x28a4e8,_0x32049f={..._0x20ecb2,'features':_0x20ecb2[_0x591943(0x242)][_0x591943(0x213)](_0x3f81be=>_0x3f81be[_0x591943(0x241)][_0x591943(0x202)]===_0x36605f)};Murabba_Layer=L['geoJSON'](_0x32049f,{'style':function(){var _0x5f54d6=_0x591943;return{'fillColor':_0x5f54d6(0x251),'fillOpacity':0x0,'color':_0x5f54d6(0x1fe),'weight':0x1};},'onEachFeature':function(_0x41adcb,_0x30755c){var _0x4107c5=_0x591943;_0x41adcb[_0x4107c5(0x241)]&&_0x41adcb[_0x4107c5(0x241)][_0x4107c5(0x21d)]&&_0x30755c[_0x4107c5(0x21a)](_0x41adcb[_0x4107c5(0x241)][_0x4107c5(0x21d)],{'permanent':!![],'direction':'center','className':'labelstyle'})[_0x4107c5(0x214)]();}})['addTo'](map);let _0x1cf84b=Murabba_Layer[_0x591943(0x1e1)]();map[_0x591943(0x20e)](_0x1cf84b[_0x591943(0x1f9)]()),map[_0x591943(0x252)](_0x1cf84b);},function(){var _0x517a9d=_0x28a4e8;console[_0x517a9d(0x247)]('Error\x20loading\x20Murabba_No\x20GeoJSON');});});function loadGeoJson(_0x23826f,_0x532f3b,_0x265004){var _0x3dbce3=_0xd731c9;fetch(_0x23826f)[_0x3dbce3(0x210)](function(_0x44d798){var _0x3221ae=_0x3dbce3;if(!_0x44d798['ok'])throw new Error(_0x3221ae(0x1f7));return _0x44d798[_0x3221ae(0x22e)]();})[_0x3dbce3(0x210)](_0x532f3b)['catch'](function(_0x1aaf3a){var _0x5ed2de=_0x3dbce3;console[_0x5ed2de(0x247)](_0x5ed2de(0x244),_0x1aaf3a),typeof _0x265004==='function'&&_0x265004(_0x1aaf3a);});}map['on'](_0xd731c9(0x1fb),updateLabelSize);var drawnItems=new L[(_0xd731c9(0x206))]()[_0xd731c9(0x1ea)](map);updateLabelSize();var drawControl=new L[(_0xd731c9(0x21b))][(_0xd731c9(0x1eb))]({'position':_0xd731c9(0x23d),'edit':{'featureGroup':drawnItems},'draw':{'polyline':{'allowIntersection':![]},'polygon':{'allowIntersection':![],'showArea':!![]},'circle':!![],'rectangle':!![],'marker':!![]}});map['addControl'](drawControl),map['on'](L[_0xd731c9(0x1eb)][_0xd731c9(0x245)][_0xd731c9(0x21f)],function(_0x4dc085){var _0x2aeae7=_0xd731c9,_0xd7a1f8=_0x4dc085[_0x2aeae7(0x23f)];drawnItems[_0x2aeae7(0x235)](_0xd7a1f8),updateLabels(_0xd7a1f8);}),map['on'](L[_0xd731c9(0x1eb)][_0xd731c9(0x245)][_0xd731c9(0x1fc)],function(_0x232772){var _0x2ccc41=_0xd731c9,_0x38565d=_0x232772[_0x2ccc41(0x222)];_0x38565d[_0x2ccc41(0x246)](function(_0x2b1a9a){updateLabels(_0x2b1a9a,!![]);});});function updateLabels(_0x523981,_0x47ca37=![]){var _0x45198d=_0xd731c9;_0x47ca37&&clearLabels(_0x523981);var _0x34b279=_0x523981 instanceof L[_0x45198d(0x254)]?_0x45198d(0x24e):_0x523981 instanceof L[_0x45198d(0x24b)]?_0x45198d(0x257):_0x523981 instanceof L[_0x45198d(0x1e4)]?_0x45198d(0x1f4):_0x523981 instanceof L[_0x45198d(0x226)]?_0x45198d(0x223):null;if(_0x34b279===_0x45198d(0x24e)||_0x34b279==='rectangle'||_0x34b279===_0x45198d(0x1f4)){var _0x1e665f=_0x523981['getLatLngs']();(_0x34b279===_0x45198d(0x24e)||_0x34b279==='rectangle')&&(_0x1e665f=_0x1e665f[0x0]);_0x34b279==='polygon'&&!_0x1e665f[_0x1e665f[_0x45198d(0x230)]-0x1][_0x45198d(0x22c)](_0x1e665f[0x0])&&_0x1e665f[_0x45198d(0x255)](_0x1e665f[0x0]);_0x1e665f['forEach']((_0x396d1,_0x1c6279)=>{var _0x149193=_0x45198d;if(_0x1c6279<_0x1e665f[_0x149193(0x230)]-0x1){var _0x177211=_0x396d1,_0x4956da=_0x1e665f[_0x1c6279+0x1],_0x2995a3=_0x177211[_0x149193(0x237)](_0x4956da)*3.28084,_0x4be9dd=L['latLng']((_0x177211[_0x149193(0x224)]+_0x4956da[_0x149193(0x224)])/0x2,(_0x177211[_0x149193(0x1df)]+_0x4956da[_0x149193(0x1df)])/0x2),_0x4edfa2=L[_0x149193(0x204)](_0x4be9dd,{'icon':L['divIcon']({'className':'segment-label','html':_0x149193(0x1e5)+_0x2995a3[_0x149193(0x220)](0x2)+_0x149193(0x248),'iconSize':null})})['addTo'](map);drawnItems[_0x149193(0x235)](_0x4edfa2);}});if(_0x34b279===_0x45198d(0x24e)||_0x34b279===_0x45198d(0x257)){var _0x1fcd10=L[_0x45198d(0x1f6)][_0x45198d(0x22b)](_0x1e665f)*10.7639,_0x503e3b=formatArea(_0x1fcd10),_0x505e45=_0x523981[_0x45198d(0x1e1)]()['getCenter'](),_0x573e97=L[_0x45198d(0x204)](_0x505e45,{'icon':L['divIcon']({'className':_0x45198d(0x229),'html':_0x45198d(0x1ef)+_0x503e3b+'</div>','iconSize':null})})[_0x45198d(0x1ea)](map);drawnItems['addLayer'](_0x573e97);}}else{if(_0x34b279===_0x45198d(0x223)){var _0x23d5b9=_0x523981[_0x45198d(0x23c)]()*3.28084,_0x1fcd10=Math['PI']*(_0x23d5b9*_0x23d5b9),_0x503e3b=formatArea(_0x1fcd10),_0x505e45=_0x523981[_0x45198d(0x216)](),_0x171b61=L['marker'](_0x505e45,{'icon':L[_0x45198d(0x203)]({'className':_0x45198d(0x1e7),'html':_0x45198d(0x249)+_0x23d5b9[_0x45198d(0x220)](0x2)+'\x20ft<br>'+_0x503e3b+_0x45198d(0x211),'iconSize':null})})[_0x45198d(0x1ea)](map);drawnItems[_0x45198d(0x235)](_0x171b61);}}}function formatArea(_0x335e20){var _0x51703b=_0xd731c9,_0x3b9ceb=272.25,_0x1c46da=0x14*_0x3b9ceb,_0x5e178d=0x8*_0x1c46da;if(_0x335e20<_0x3b9ceb)return _0x51703b(0x253)+_0x335e20['toFixed'](0x2)+_0x51703b(0x1f8);else{if(_0x335e20<_0x1c46da){var _0x1e6397=Math['floor'](_0x335e20/_0x3b9ceb),_0x35a9ee=_0x335e20%_0x3b9ceb;return'Area:<br>'+_0x1e6397+_0x51703b(0x23a)+_0x35a9ee['toFixed'](0x2)+'\x20Sq.\x20Feet';}else{if(_0x335e20<_0x5e178d){var _0x4f8c7d=Math[_0x51703b(0x1f0)](_0x335e20/_0x1c46da),_0x2ab5f1=_0x335e20%_0x1c46da,_0x1e6397=Math['floor'](_0x2ab5f1/_0x3b9ceb),_0x35a9ee=_0x2ab5f1%_0x3b9ceb;return _0x51703b(0x253)+_0x4f8c7d+_0x51703b(0x221)+_0x1e6397+_0x51703b(0x23a)+_0x35a9ee['toFixed'](0x2)+_0x51703b(0x1f8);}else{var _0x4d7dab=Math[_0x51703b(0x1f0)](_0x335e20/_0x5e178d),_0xae5bdb=_0x335e20%_0x5e178d,_0x4f8c7d=Math[_0x51703b(0x1f0)](_0xae5bdb/_0x1c46da),_0x2ab5f1=_0xae5bdb%_0x1c46da,_0x1e6397=Math[_0x51703b(0x1f0)](_0x2ab5f1/_0x3b9ceb),_0x35a9ee=_0x2ab5f1%_0x3b9ceb;return _0x51703b(0x253)+_0x4d7dab+'\x20Acre<br>'+_0x4f8c7d+_0x51703b(0x221)+_0x1e6397+_0x51703b(0x23a)+_0x35a9ee[_0x51703b(0x220)](0x2)+_0x51703b(0x1f8);}}}}function clearLabels(_0x164a8c){var _0x2e2a38=_0xd731c9;drawnItems[_0x2e2a38(0x246)](function(_0x25f53f){var _0x5c65cc=_0x2e2a38;_0x25f53f!==_0x164a8c&&_0x25f53f[_0x5c65cc(0x256)][_0x5c65cc(0x208)]&&_0x25f53f[_0x5c65cc(0x256)][_0x5c65cc(0x208)]['options'][_0x5c65cc(0x22a)]['includes'](_0x5c65cc(0x21c))&&(map[_0x5c65cc(0x22f)](_0x25f53f),drawnItems[_0x5c65cc(0x22f)](_0x25f53f));});}function _0x55de(_0x2325cf,_0x2bb7bb){var _0xfdc2cc=_0xfdc2();return _0x55de=function(_0x55de58,_0x3fb018){_0x55de58=_0x55de58-0x1df;var _0x4d2cce=_0xfdc2cc[_0x55de58];return _0x4d2cce;},_0x55de(_0x2325cf,_0x2bb7bb);}map['on'](_0xd731c9(0x1f3),function(_0x5b63f1){var _0x8f1001=_0xd731c9,_0x451814=_0x5b63f1[_0x8f1001(0x222)];_0x451814[_0x8f1001(0x246)](function(_0x2f450f){var _0x10ab1d=_0x8f1001;map[_0x10ab1d(0x22f)](_0x2f450f),drawnItems[_0x10ab1d(0x22f)](_0x2f450f);});});
+var map = L.map('map').setView([31,68], 5); // Set to your default view
+
+var googleHybrid = L.tileLayer('https://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}', {
+    maxZoom: 20,
+    subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+}).addTo(map); 
+
+var googleSat = L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+    maxZoom: 21,
+    subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+}).addTo(map);
+
+var baseLayers = {
+    "Google Hybrid": googleHybrid,
+    "Google Satellite": googleSat
+    };
+
+L.control.layers(baseLayers, null, {collapsed: false, position: 'bottomright' }).addTo(map);
+L.control
+  .locate({
+    position: "topleft",
+    strings: {
+    title: "Show My Location"
+    },
+    locateOptions: {
+      enableHighAccuracy: true
+    }
+  })
+  .addTo(map);
+
+
+
+  function customSort(array) {
+    return array.sort((a, b) => {
+        // Splitting each string at the space
+        let [numA, alphaA] = a.split(" ");
+        let [numB, alphaB] = b.split(" ");
+
+        // Parsing the numeric parts as integers
+        numA = parseInt(numA, 10);
+        numB = parseInt(numB, 10);
+
+        // Comparing the numeric parts
+        if (numA !== numB) {
+            return numA - numB;
+        }
+
+        // If the numeric parts are equal, compare the alphabetical parts
+        return alphaA.localeCompare(alphaB);
+    });
+} 
+
+var currentLayer = null;
+var Murabba_Layer = null;
+let chakNames=customSort(data);
+// Populate first dropdown
+chakNames.forEach(function(name) {
+    var option = document.createElement('option');
+    option.value = option.textContent = name;
+    document.getElementById('chak-dropdown').appendChild(option);
+});
+
+
+function updateLabelSize() {
+    const zoomLevel = map.getZoom();
+    let fontSize;
+
+    // Adjust font size based on zoom level
+    if (zoomLevel < 10) {
+        fontSize = '8px'; // Smaller font at lower zoom levels
+    } else if (zoomLevel >= 10 && zoomLevel < 15) {
+        fontSize = '12px'; // Medium font for mid zoom levels
+    } else {
+        fontSize = '16px'; // Larger font at higher zoom levels
+    }
+
+    // Set the CSS variable to adjust label size
+    document.documentElement.style.setProperty('--label-font-size', fontSize);
+}
+
+
+// Handle chak dropdown change
+document.getElementById('chak-dropdown').addEventListener('change', function(e) {
+    var chakName = e.target.value;
+    if (currentLayer) {
+        map.removeLayer(currentLayer);
+        map.removeLayer(Murabba_Layer);
+    }
+    if (chakName !== "Select Chak") {
+        loadGeoJson( "JSON Murabba/"+chakName + '.geojson', function(geojsonData) {
+            currentLayer = L.geoJSON(geojsonData,{
+                style: function() {
+                    return {
+                        fillColor: "#000000", // Black, but it will be transparent due to fillOpacity
+                        fillOpacity: 0, // Transparent fill
+                        color: "#ff0c04", // Border color
+                        weight: 3 // Border width
+                    };
+                },
+                onEachFeature: function(feature, layer) {
+                    if (feature.properties && feature.properties.Murabba_No) {
+                        layer.bindTooltip(feature.properties.Murabba_No,{ permanent: true ,direction: 'center',className: 'mustateel'}).openTooltip();
+                    }
+                }
+            }).addTo(map);
+            
+            let bounds = currentLayer.getBounds();
+            map.setView(bounds.getCenter());
+            map.fitBounds(bounds);
+        // Clear and populate second dropdown
+var Murabba_NoDropdown = document.getElementById('Murabba_No-dropdown');
+Murabba_NoDropdown.innerHTML = '<option>Select Muraba</option>';
+
+// Collect all Murabba_No values into an array
+var murabbaNumbers = geojsonData.features.map(function(feature) {
+    return feature.properties.Murabba_No;
+});
+
+function customSort(a, b) {
+    let [numA, denomA = 1] = a.includes('/') ? a.split('/').map(Number) : [Number(a), 1];
+    let [numB, denomB = 1] = b.includes('/') ? b.split('/').map(Number) : [Number(b), 1];
+
+    if (numA === numB) {
+        return denomA - denomB;
+    }
+    return numA - numB;
+}
+
+murabbaNumbers.sort(customSort);
+
+// Create and append option elements to the dropdown
+murabbaNumbers.forEach(function(number) {
+    var option = document.createElement('option');
+    option.value = option.textContent = number;
+    Murabba_NoDropdown.appendChild(option);
+});
+
+            
+        });
+    }
+});
+
+document.getElementById('Murabba_No-dropdown').addEventListener('change', function(e) {
+    var selectedMurabba_No = e.target.value;
+    var chakName = document.getElementById('chak-dropdown').value;
+    
+    if (Murabba_Layer) {
+        map.removeLayer(Murabba_Layer);
+    }
+
+    if (selectedMurabba_No !== "Select Muraba") {
+        loadGeoJson("JSON Khasra/"+chakName + ' ' + 'Khasra' + '.geojson', function(geojsonData) {
+            // Filter the GeoJSON data
+            var filteredGeoJson = {
+                ...geojsonData,
+                features: geojsonData.features.filter(feature => 
+                    feature.properties.Murabba_No === selectedMurabba_No)
+            };
+
+            // Add the filtered data to the map
+            Murabba_Layer = L.geoJSON(filteredGeoJson,{
+                style: function() {
+                    return {
+                        fillColor: "#000000", // Black, but it will be transparent due to fillOpacity
+                        fillOpacity: 0, // Transparent fill
+                        color: "#ede88f", // Border color
+                        weight: 1 // Border width
+                    };
+                },
+                onEachFeature: function(feature, layer) {
+                    if (feature.properties && feature.properties.Killa) {
+                        layer.bindTooltip(feature.properties.Killa,{ permanent: true ,direction: 'center',className: 'labelstyle'}).openTooltip();
+                    }
+                }
+            }).addTo(map);
+
+            let bounds = Murabba_Layer.getBounds();
+            map.setView(bounds.getCenter());
+            map.fitBounds(bounds);
+        }, function() {
+            console.error("Error loading Murabba_No GeoJSON");
+        });
+    }
+});
+
+
+function loadGeoJson(url, onSuccess, onError) {
+    fetch(url)
+        .then(function(response) {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(onSuccess)
+        .catch(function(error) {
+            console.error('Error loading GeoJSON: ', error);
+            if (typeof onError === 'function') {
+                onError(error);
+            }
+        });
+}
+
+map.on('zoomend', updateLabelSize);
+
+
+// Feature group to store drawable layers
+var drawnItems = new L.FeatureGroup().addTo(map);
+
+updateLabelSize();
+
+// Add drawing controls with positioning at the bottom left
+var drawControl = new L.Control.Draw({
+    position: 'bottomleft',
+    edit: {
+        featureGroup: drawnItems
+    },
+    draw: {
+        polyline: {
+            allowIntersection: false
+        },
+        polygon: {
+            allowIntersection: false,
+            showArea: true
+        },
+        circle: true,
+        rectangle: true,
+        marker: true
+    }
+});
+map.addControl(drawControl);
+
+// Handling the creation and edit of shapes
+map.on(L.Draw.Event.CREATED, function(event) {
+    var layer = event.layer;
+    drawnItems.addLayer(layer);
+    updateLabels(layer);
+});
+
+map.on(L.Draw.Event.EDITED, function(event) {
+    var layers = event.layers;
+    layers.eachLayer(function(layer) {
+        updateLabels(layer, true); // Update with clearing old labels
+    });
+});
+
+function updateLabels(layer, clearOld = false) {
+    if (clearOld) {
+        clearLabels(layer);
+    }
+
+    var type = layer instanceof L.Polygon ? 'polygon' :
+               layer instanceof L.Rectangle ? 'rectangle' :
+               layer instanceof L.Polyline ? 'polyline' :
+               layer instanceof L.Circle ? 'circle' : 
+               layer instanceof L.Marker ? 'marker' : null;
+
+    if (type === 'polygon' || type === 'rectangle' || type === 'polyline') {
+        var latlngs = layer.getLatLngs();
+        if (type === 'polygon' || type === 'rectangle') {
+            latlngs = latlngs[0];
+        }
+        // Close the polygon if necessary
+        if (type === 'polygon' && !latlngs[latlngs.length - 1].equals(latlngs[0])) {
+            latlngs.push(latlngs[0]);
+        }
+        latlngs.forEach((latlng, i) => {
+            if (i < latlngs.length - 1) {
+                var pointA = latlng;
+                var pointB = latlngs[i + 1];
+                var distance = pointA.distanceTo(pointB) * 3.28084; // Convert to feet
+                var midpoint = L.latLng((pointA.lat + pointB.lat) / 2, (pointA.lng + pointB.lng) / 2);
+
+                var label = L.marker(midpoint, {
+                    icon: L.divIcon({
+                        className: 'segment-label',
+                        html: `<div style="min-width: 50px; background-color: black; color: white; padding: 2px; border-radius: 3px; white-space: nowrap; text-align: center;">${distance.toFixed(2)} ft</div>`,
+                        iconSize: null // Let Leaflet handle the size dynamically based on content
+                    })
+                }).addTo(map);
+
+                drawnItems.addLayer(label);
+            }
+        });
+
+        if (type === 'polygon' || type === 'rectangle') {
+            var areaSqFeet = L.GeometryUtil.geodesicArea(latlngs) * 10.7639; // Convert to square feet
+            var areaLabel = formatArea(areaSqFeet);
+            var center = layer.getBounds().getCenter();
+
+            var areaMarker = L.marker(center, {
+                icon: L.divIcon({
+                    className: 'area-label',
+                    html: `<div style="min-width: 50px; background-color: black; color: white; padding: 2px; border-radius: 3px; white-space: nowrap; text-align: left;">${areaLabel}</div>`,
+                    iconSize: null
+                })
+            }).addTo(map);
+
+            drawnItems.addLayer(areaMarker);
+        }
+    } else if (type === 'circle') {
+        var radius = layer.getRadius() * 3.28084; // Convert to feet
+        var areaSqFeet = Math.PI * (radius * radius); // Calculate area in square feet
+        var areaLabel = formatArea(areaSqFeet);
+        var center = layer.getLatLng();
+        var radiusAndAreaLabel = L.marker(center, {
+            icon: L.divIcon({
+                className: 'radius-area-label',
+                html: `<div style="background-color: black; color: white; padding: 2px; border-radius: 3px;">Radius: ${radius.toFixed(2)} ft<br> ${areaLabel}</div>`,
+            })
+        }).addTo(map);
+        drawnItems.addLayer(radiusAndAreaLabel);
+    } else if (type === 'marker') {
+        var latlng = layer.getLatLng();  // Get the latitude and longitude
+        var tooltipContent = `Lat:Long (${latlng.lat.toFixed(5)},  ${latlng.lng.toFixed(5)})`;
+        layer.bindTooltip(tooltipContent, {
+            permanent: true,
+            direction: 'top',
+            className: 'leaflet-tooltip.leaflet-clickable'
+        }).openTooltip();
+    }
+}
+
+
+function formatArea(areaSqFeet) {
+    var oneMarla = 272.25;
+    var oneKanal = 20 * oneMarla;
+    var oneAcre = 8 * oneKanal;
+
+    if (areaSqFeet < oneMarla) {
+        return `Area:<br>${areaSqFeet.toFixed(2)} Sq. Feet`;
+    } else if (areaSqFeet < oneKanal) {
+        var marlas = Math.floor(areaSqFeet / oneMarla);
+        var remainingFeet = areaSqFeet % oneMarla;
+        return `Area:<br>${marlas} Marla<br>${remainingFeet.toFixed(2)} Sq. Feet`;
+    } else if (areaSqFeet < oneAcre) {
+        var kanals = Math.floor(areaSqFeet / oneKanal);
+        var restFeetInKanal = areaSqFeet % oneKanal;
+        var marlas = Math.floor(restFeetInKanal / oneMarla);
+        var remainingFeet = restFeetInKanal % oneMarla;
+        return `Area:<br>${kanals} Kanal<br>${marlas} Marla<br>${remainingFeet.toFixed(2)} Sq. Feet`;
+    } else {
+        var acres = Math.floor(areaSqFeet / oneAcre);
+        var restFeetInAcre = areaSqFeet % oneAcre;
+        var kanals = Math.floor(restFeetInAcre / oneKanal);
+        var restFeetInKanal = restFeetInAcre % oneKanal;
+        var marlas = Math.floor(restFeetInKanal / oneMarla);
+        var remainingFeet = restFeetInKanal % oneMarla;
+        return `Area:<br>${acres} Acre<br>${kanals} Kanal<br>${marlas} Marla<br>${remainingFeet.toFixed(2)} Sq. Feet`;
+    }
+}
+
+function clearLabels(layer) {
+    drawnItems.eachLayer(function (otherLayer) {
+        if (otherLayer !== layer && otherLayer.options.icon && otherLayer.options.icon.options.className.includes('label')) {
+            map.removeLayer(otherLayer);
+            drawnItems.removeLayer(otherLayer);
+        }
+    });
+}
+
+map.on('draw:deleted', function (e) {
+    var layers = e.layers;
+    layers.eachLayer(function (layer) {
+        map.removeLayer(layer);
+        drawnItems.removeLayer(layer);
+    });
+});
