@@ -7,7 +7,7 @@ body, html {
     position: relative;
    /*Adjust according to the height of the top-panel */
     width: 99%;    
-    height: 86vh;
+    height: 83vh;
     left: 0;
 }
 #top-panel {
@@ -34,7 +34,7 @@ body, html {
     position: relative;
     background-color: #1d1d1d;
     padding: 0px;
-    top: 94vh;
+    top: 90vh;
     position:absolute;
     width: 99%;
     height: 3vh;
