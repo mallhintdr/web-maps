@@ -1,0 +1,230 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 93vh;
+}
+#map {
+    position: relative;
+   /*Adjust according to the height of the top-panel */
+    width: 99%;    
+    height: 86vh;
+    left: 0;
+}
+#top-panel {
+    background-color: #414141;
+    padding: 5px;
+    position: relative; /* Ensure it's above the map */
+    height: 3vh; /* Customize this value as needed */
+    width: 99%;
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center; 
+}
+#panel-2 {
+    background-color: #1d1d1d;
+    padding: 0px;
+    border-bottom: 1px solid #ccc;
+    position: relative; /* Ensure it's above the map */
+    height: 4vh; /* Customize this value as needed */
+    width: 99%;
+    justify-content: space-between; 
+    display: flex;
+   }
+#footer-panel {
+    position: relative;
+    background-color: #1d1d1d;
+    padding: 0px;
+    top: 94vh;
+    position:absolute;
+    width: 99%;
+    height: 3vh;
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center; 
+    z-index: 1000;
+}
+select {
+    width: auto;
+    padding: 4px;
+    border-radius:  30px;
+    border: 1px solid #6c5959;
+    height: auto;
+    font-size: 17px;
+    text-align: center;
+}
+select:hover {
+    background-color: #d4d4a6;
+}
+/* General styling for the layer control */
+.leaflet-control-layers {
+    background-color: rgba(236, 234, 214, 0.868); /* White with 50% opacity */
+    border: 2px solid #c52222;
+    border-radius: 5;
+    box-shadow: 0 1px 5px rgb(190, 132, 132);
+}
+
+/* Styling for the layer control checkboxes */
+.leaflet-control-layers-selector {
+    margin-right: 3px;
+}
+/* Styling for layer control separators */
+.leaflet-control-layers-separator {
+    height: 1px;
+    background-color: #eeeeee;
+    margin: 2px 0;
+}
+/* Styling for layer control labels */
+.leaflet-control-layers label {
+    display:block;
+    color: rgb(43, 43, 199);
+    font-size: 22px;
+    padding: 2px 0;
+}
+/* Hover effect for labels */
+.leaflet-control-layers label:hover {
+    background-color: #abb9f8;
+    border-radius: 15px;
+    color: rgb(247, 226, 223);
+}
+/* Styling for the layer control when expanded */
+.leaflet-control-layers-expanded {
+    width: auto; /* Ad justed width */
+    padding: 3px;
+}
+/* Ensure your selector is specific enough */
+#map .leaflet-control-zoom-in, 
+#map .leaflet-control-zoom-out {
+    width: 36px;
+    height: 36px;
+    background-color: #d4d4a6;
+    border: 2px solid #000;
+    line-height: 36px;
+}
+/* Target the pseudo-elements specifically */
+
+/* Hover effect */
+#map .leaflet-control-zoom-in:hover,
+#map .leaflet-control-zoom-out:hover {
+    background-color: #d1d172;
+}
+/* Custom CSS to increase the size of the Locate button */
+/* Increase the size of the Locate Control button */
+
+.leaflet-control-locate a span,
+.leaflet-control-locate a i {
+   background-image: none !important; /* Use !important to override any other styles */
+}
+/* Apply your custom image to the button */
+.leaflet-control-locate a {
+        background-image: url('../Images/location.png') !important; /* Make sure the path is correct */
+        width: 36px;
+        height: 36px;
+        padding: 0; /* Reset padding */
+        margin: 0; /* Reset margin */
+        box-sizing: border-box; /* This ensures padding and borders are included in the width and height */
+        background-color: #d4d4a6;
+        border: 2px solid #000;
+        line-height: 36px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: 100%; /* Adjust the size of your custom icon within the button */
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    
+.labelstyle {
+    background-color: transparent; 
+    border: none; 
+    box-shadow: none;
+    color: #ffeb50; /* yellow color */
+    font-size: var(--label-font-size, 14px);
+    text-shadow: 1px 1px 2px #000000,  /* Horizontal shadow, Vertical shadow, Blur, and Color */
+                 -1px -1px 2px #000000,
+                 1px -1px 2px #000000,
+                 -1px 1px 2px #000000; /* Multiple shadows for better outline effect */
+}
+
+.mustateel {
+    background-color: transparent; 
+    border: none; 
+    box-shadow: none;
+    color: #3eff0d; /* green color */
+    font-size: var(--label-font-size, 16px); /* Default size */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000000,  /* Horizontal shadow, Vertical shadow, Blur, and Color */
+                 -1px -1px 2px #0b0b0b,
+                 1px -1px 2px #050505,
+                 -1px 1px 2px #070707; /* Multiple shadows for better outline effect */
+}
+.leaflet-tooltip.mustateel.no-arrow::before {
+    display: none;
+}
+.leaflet-popup-content-wrapper {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ff0c04;
+    border-radius: 1px;
+}
+h4 {
+    padding: 1px;             /* Adds some space around the text */
+    color: rgb(31, 39, 128);/* Text color */
+    max-width: fit-content;    /* Makes the background color fit the text width */
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+h3 {
+    padding: 1px;             /* Adds some space around the text */
+    color: rgb(255, 255, 255); /* Text color */
+    text-align: center;     /* Centers the headline horizontally */
+}
+.north-arrow {
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    height: 10vh;  /* Adjust size as needed */
+    width: 10vh;   /* Adjust size as needed */
+    background-image: url('../Images/north.png');
+    background-size: cover;
+    z-index: 1000;
+}
+
+
+.coord-tooltip {
+    background-color: black;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;  /* Ensures the background fits the content */
+    overflow: hidden;     /* Prevents content from spilling out */
+    text-overflow: ellipsis; /* Adds an ellipsis if the text overflows */
+}
+
+leaflet-tooltip.leaflet-clickable {
+    pointer-events: auto !important;  /* Allows mouse events like clicks and text selection */
+    user-select: text !important;     /* Allows text selection in the tooltip */
+    -webkit-user-select: text;        /* Specific for webkit browsers like Chrome and Safari */
+    -moz-user-select: text;           /* Specific for Firefox */
+    -ms-user-select: text;            /* Specific for Internet Explorer */
+}
+
+/* Additional styles for better appearance and legibility */
+
+
+.radius-area-label {
+    background-color: black;
+    color: white;
+    padding: 4px 8px;  /* Adequate padding for visual padding */
+    border-radius: 4px;
+    white-space: normal;  /* Allow text to wrap if needed */
+    min-width: 100px;  /* Minimum width to handle smaller text entries */
+    max-width: 200px;  /* Maximum width to prevent overly wide tooltips */
+    text-align: left;  /* Align text to the left */
+    line-height: 1.4;  /* Adjust line spacing for readability */
+    font-size: 12px;  /* Ensure font size is not too large */
+    overflow-wrap: break-word;  /* Ensure long words do not overflow */
+    display: inline-block;  /* Force the div to fit the content's width */
+}
