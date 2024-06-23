@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "E:\\naqsha-arazi.pk\\JSON Murabba\\north_south_boundry.geojson",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "LENGTH": "25.008 miles", "BEARING": "89.5882°", "SINUOSITY": "1" }, "geometry": { "type": "LineString", "coordinates": [ [ 71.175365460759039, 28.779774509446291 ], [ 71.587533283133752, 28.781755498321456 ], [ 71.587533283133752, 28.781755498321456 ] ] } }
+]
+}
